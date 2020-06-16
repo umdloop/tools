@@ -1,0 +1,8 @@
+digraph {
+    S00 [label="(ENTRY)One"];
+    S01 [label="Two"];
+
+    S00 -> S01 [label="1000(T1)"];
+    S01 -> S00 [label="1000(T1)"];
+}
+

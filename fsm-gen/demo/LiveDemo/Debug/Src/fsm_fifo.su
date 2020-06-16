@@ -1,0 +1,5 @@
+fsm_fifo.hpp:20:3:Event_FIFO::Event_FIFO()	16	static
+fsm_fifo.cpp:14:6:void write_event(FSM_Event)	24	static
+fsm_fifo.cpp:35:5:int read_event(FSM_Event*)	16	static
+fsm_fifo.cpp:44:1:void __static_initialization_and_destruction_0(int, int)	16	static
+fsm_fifo.cpp:44:1:cpp)	8	static

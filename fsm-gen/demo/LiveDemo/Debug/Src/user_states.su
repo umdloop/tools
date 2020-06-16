@@ -1,0 +1,6 @@
+user_states.cpp:3:6:void state_S01()	8	static
+user_states.cpp:7:6:void state_S02()	8	static
+user_states.cpp:11:6:void state_S03()	8	static
+user_states.cpp:15:6:void state_S04()	8	static
+user_states.cpp:19:6:void state_S05()	8	static
+user_states.cpp:23:6:void state_S06()	8	static

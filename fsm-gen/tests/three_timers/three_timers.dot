@@ -1,0 +1,23 @@
+digraph {
+    // FSM1
+    S01 [label="(ENTRY)One"];
+    S02 [label="Two"];
+
+    S01 -> S02 [label="1000(T1)"];
+    S02 -> S01 [label="1000(T1)"];
+
+    // FSM2
+    S03 [label="(ENTRY)Three"];
+    S04 [label="Four"];
+
+    S03 -> S04 [label="500(T2)"];
+    S04 -> S03 [label="500(T2)"];
+
+    // FSM2
+    S05 [label="(ENTRY)Five"];
+    S06 [label="Six"];
+
+    S05 -> S06 [label="250(T3)"];
+    S06 -> S05 [label="250(T3)"];
+}
+

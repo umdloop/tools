@@ -1,0 +1,9 @@
+digraph {
+    S00 [label="(ENTRY)One"];
+    S01 [label="Two"];
+    
+    S00 -> S00 [label="Repeat"];
+    S01 -> S01 [label="Repeat"];
+    S00 -> S01 [label="Swap"];
+    S01 -> S00 [label="Swap"];
+}
